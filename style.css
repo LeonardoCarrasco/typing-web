@@ -1,0 +1,72 @@
+*{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.text-container{
+    padding: 20px 20px;
+}
+
+.text-container h1{
+    font-size: 3em;
+    letter-spacing: 1px;
+}
+
+.text-container h2{
+    font-size: 3em;
+    color: rgb(92, 92, 92);
+}
+
+input{
+    border-radius: 8px;
+    padding: 12px 60px;
+}
+input::placeholder{
+    font-size: 1.2em
+}
+
+.msj{
+    margin: 20px 0;
+}
+
+.estado p, .msj p{
+    font-size: 20px;
+}
+
+.bien{
+    color: rgb(55, 200, 10);
+}
+.mal{
+    color: crimson;
+}
+
+.btn{
+    padding: 10px 23px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(11, 80, 122, 0.2);
+    color: #333;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: -2px 6px 0px 0px rgba(0,0,0,0.18);
+}
+
+.btn:hover{
+    background-color: rgba(0, 110, 179, 0.2);
+}
+
+.instructions{
+   margin-top: 100px;
+}
+
+.instructions p{
+    margin: 0 auto;
+    width: 500px;
+    height: auto;
+    box-shadow: -2px 6px 0px 0px rgba(0,0,0,0.18);
+    padding: 30px 50px;
+    background-color: rgb(105, 105, 105);
+    color: #FFF;
+    font-size: 20px;
+}
