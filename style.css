@@ -1,5 +1,9 @@
 *{
     font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
     text-align: center;
 }
 
@@ -10,11 +14,13 @@
 .text-container h1{
     font-size: 3em;
     letter-spacing: 1px;
+    margin: 30px 0;
 }
 
 .text-container h2{
     font-size: 3em;
     color: rgb(92, 92, 92);
+    padding: 30px 0;
 }
 
 input{
@@ -28,7 +34,9 @@ input::placeholder{
 .msj{
     margin: 20px 0;
 }
-
+.estado{
+    padding: 20px 0;
+}
 .estado p, .msj p{
     font-size: 20px;
 }
@@ -69,4 +77,13 @@ input::placeholder{
     background-color: rgb(105, 105, 105);
     color: #FFF;
     font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        text-align: center;
+    }
+    .instructions p{
+        width: auto
+    }
 }
