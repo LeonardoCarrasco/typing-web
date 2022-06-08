@@ -13,7 +13,11 @@
         <h2 id="palabra"></h2>
     </div>
     
-    <input id="input" type="text" autocomplete="off" placeholder="empieza a escribir" autofocus >
+    <div class="input-container">
+        <input id="input" type="text" autocomplete="off" placeholder="empieza a escribir" autofocus>
+        <span id="timer">0</span>
+    </div>
+
 
     <div class="msj">
         <h3>Aciertos:
@@ -24,12 +28,24 @@
     <div class="estado">
 
     </div>
-
-    <button class="btn">RESTART</button>
+    <button class="btn start">START</button>
+    <button class="btn restart">RESTART</button>
 
     <div class="instructions">
         <p>Al terminar de escribir la palabra presiona Enter.</p>
     </div>
+
+    <div class="user-stats">
+
+        <div class="title">
+            <h4>Tiempo</h4>
+            <h4>Aciertos</h4>
+        </div>
+
+
+    </div>
+
+    <p id="prueba"></p>
     
     <script src="js.js"></script>
 </body>
